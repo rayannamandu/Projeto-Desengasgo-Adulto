@@ -8,21 +8,19 @@
     height: 2000px;
     width: 1440px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "nav nav nav nav2 nav2 nav2"
-                        "main main main main main main"
-                        "conteudo1 conteudo1 conteudo1 conteudo1_2 conteudo1_2 conteudo1_2"
-                        "conteudo2 conteudo2 conteudo2 conteudo2 conteudo2 conteudo2"
-                        "conteudo3 conteudo3 conteudo3 conteudo3 conteudo3 conteudo3"
-                        "conteudo4_1 conteudo4_1 conteudo4_1 conteudo4_2 conteudo4_2 conteudo4_2"
-                        "conteudo5 conteudo5 conteudo5 conteudo5 conteudo5 conteudo5"
-                        "conteudo6 conteudo6 conteudo6 conteudo6 conteudo6 conteudo6"
-                        "conteudo7_1 conteudo7_1 conteudo7_2 conteudo7_2 conteudo7_3 conteudo7_3"
-                        "conteudo8 conteudo8 conteudo8 conteudo8 conteudo8 conteudo8"
-                        "conteudo9  conteudo9 conteudo9 conteudo9 conteudo9 conteudo9"
-                        "conteudo10 conteudo10 conteudo10 conteudo10 conteudo10 conteudo10"
-                        "conteudo11_1 conteudo11_1 conteudo11_1 conteudo11_2 conteudo11_2 conteudo11_2 "
-                        "conteudo12_1 conteudo12_1 conteudo12_2 conteudo12_2 conteudo12_3 conteudo12_3 ";
+                         "main main main main main main"
+                         "conteudo1 conteudo1 conteudo1 conteudo1_2 conteudo1_2 conteudo1_2"
+                         "conteudo2 conteudo2 conteudo2 conteudo2 conteudo2 conteudo2"
+                         "conteudo3 conteudo3 conteudo3 conteudo3 conteudo3 conteudo3"
+                         "conteudo4_1 conteudo4_1 conteudo4_1 conteudo4_2 conteudo4_2 conteudo4_2"
+                         "conteudo5 conteudo5 conteudo5 conteudo5 conteudo5 conteudo5"
+                         "conteudo6 conteudo6 conteudo6 conteudo6 conteudo6 conteudo6"
+                         "conteudo7_1 conteudo7_1 conteudo7_2 conteudo7_2 conteudo7_3 conteudo7_3"
+                         "conteudo8 conteudo8 conteudo8 conteudo8 conteudo8 conteudo8"
+                         "conteudo9  conteudo9 conteudo9 conteudo9 conteudo9 conteudo9"
+                         "conteudo10_1 conteudo10_1 conteudo10_2 conteudo10_2 conteudo10_3 conteudo10_3 ";
 }
 
 #nav{
@@ -175,16 +173,16 @@ p{
 }
 .bebida{
     margin-left: 400px;
-    margin-top: -25px;
+    margin-top: -40px;
 }
 .alerta2{
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 30px;
+    text-align: center;
 }
 
 .aviso{
-    margin-left: 0px;
-    margin-top: -35px;
+    margin-left: 400px;
+    margin-top: -40px;
 }
 
 #conteudo3{
@@ -205,7 +203,7 @@ p{
 .video{
     position: absolute;
     margin-left: 150px;
-    margin-top: -45px;
+    margin-top: 35px;
     background: #FFFFFF;
     text-align: center;
 }
@@ -223,32 +221,35 @@ p{
 }
 
 .alvo1{
-    margin-left: -140px;
+    margin-left: -65px;
+    margin-top: 50px;
 }
 
 .etapa1{
-    margin-top: -35px;
+    margin-top: -40px;
     margin-left: -90px;
 }
 
 .alvo2{
-    margin-left: -80px;
+    margin-left: -10px;
     margin-top: 70px;
 }
 
 .etapa2{
     margin-top: -50px;
-    margin-left: -30px;
+    margin-left: -50px;
     text-align: center;
 }
 
 .alvo3{
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-left: 60px;
 }
 
 .etapa3{
-    margin-top: -35px;
-    margin-left: 50px;
+    margin-top: -40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
 }
 
 #conteudo5{
@@ -257,8 +258,8 @@ p{
 }
 
 .manobra{
-    margin-top: -500px;
-    margin-left: 300px
+    margin-top: 80px;
+    margin-left: 450px;
 }
 
 #conteudo6{
@@ -280,43 +281,72 @@ p{
     background-color: #FFFFFF;
     grid-area: conteudo7_1;
 }
+
+.indicacao1{
+    margin-top: 70px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:right;
+    margin-right: 50px;
+}
+
 #conteudo7_2{
     background-color: #FFFFFF;
     grid-area: conteudo7_2;
 }
+
 #conteudo7_3{
     background-color: #FFFFFF;
     grid-area: conteudo7_3;
 }
+
+.indicacao2{
+    margin-top: 70px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: -50px;
+}
+
 #conteudo8{
     background-color: #F2F2F2;
     grid-area: conteudo8;
 }
+
+.titulo6{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #conteudo9{
     background-color: #F2F2F2;
     grid-area: conteudo9;
 }
-#conteudo10{
-    background-color: #FFFFFF;
-    grid-area: conteudo10;
+
+.servicos{
+    margin-left: 420px;
+    margin-bottom: 100px;
 }
-#conteudo11_1{
-    background-color: #FFFFFF;
-    grid-area: conteudo11_1;
-}
-#conteudo11_2{
-    background-color: #FFFFFF;
-    grid-area: conteudo11_2;
-}
-#conteudo12_1{
+
+#conteudo10_1{
     background-color: #84C1D9;
-    grid-area: conteudo12_1;
+    grid-area: conteudo10_1;
+    text-align: center;
 }
-#conteudo12_2{
+#conteudo10_2{
     background-color: #DFF2F2;
-    grid-area: conteudo12_2;
+    grid-area: conteudo10_2;
 }
-#conteudo12_3{
+#conteudo10_3{
     background-color: #84C1D9;
-    grid-area: conteudo12_3;
+    grid-area: conteudo10_3;
+    text-align: center;
+}
+
+.button_up::after{
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
 }
